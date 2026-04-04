@@ -1,0 +1,31 @@
+iew
+code
+|
+raw
+
+Copy download link
+history
+blame
+edit
+delete
+320 Bytes
+---
+license: apache-2.0
+datasets:
+- togethercomputer/CoderForge-Preview
+- OpenResearcher/OpenResearcher-Dataset
+language:
+- aa
+metrics:
+- code_eval
+base_model:
+- MiniMaxAI/MiniMax-M2.5
+new_version: nvidia/personaplex-7b-v1
+pipeline_tag: image-to-3d
+library_name: asteroid
+tags:
+- biology
+- code
+- medical
+- chemistry
+---
