@@ -18,9 +18,11 @@ models have validated performance. This project is not for clinical use.
 
 ## Data provenance and reproducibility
 
-The notebook refers to an external preprocessed ISLES'22 dataset. Its source,
-citation, access permissions, and applicable data-use terms have not been
-verified here. The repository does not contain a root-level license file.
+The notebook no longer contains the previously hard-coded external folder
+reference or an automatic downloader. It now uses a provenance placeholder and
+expects a local dataset path. This does not establish the source, citation,
+access permissions, or applicable data-use terms for any dataset. The
+repository does not contain a root-level license file.
 
 Before running or redistributing this work, document the dataset citation and
 license, the provenance and privacy status of the included arrays, the intended
